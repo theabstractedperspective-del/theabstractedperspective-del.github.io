@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+  }
+  
+  .site {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 60px;
+  }
+  
+  header {
+    padding-bottom: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .site-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .site-title a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .oped-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid black;
+  }
+  
+  .oped-list li {
+    border-bottom: 1px solid black;
+  }
+  
+  .oped-list a {
+    display: block;
+    padding: 14px 0;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .oped-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .oped-title {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 28px;
+  }
+  
+  article p {
+    font-size: 19px;
+    margin: 0 0 20px;
+  }
+  
+  footer {
+    border-top: 1px solid black;
+    margin-top: 48px;
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  
+  footer a {
+    color: black;
+  }
